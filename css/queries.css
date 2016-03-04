@@ -1,0 +1,13 @@
+@media screen and (max-width: 990px){
+	footer .footer-links {
+		display: inline-block;
+		width: 24%;
+	}
+}
+
+@media screen and (max-width: 600px){
+	footer .footer-links {
+		display: inline-block;
+		width: 49%;
+	}
+}

@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/queries.css">
     <!-- HTML5 Shim and Respond.js Agrega soporte para elementos HTML5 y media quieries en IE8 -->
     <!-- ADVERTENCIA: Respond.js no soporta que ejecutes tu código via file:// -->
     <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]-->
@@ -26,7 +27,7 @@
             <a href="#">
             <i class="glyphicon glyphicon-home"></i>Enlaces RSS</a>
           </li>
-          <form class="navbar-form pull-left">
+          <form class="navbar-form pull-left hidden-sm hidden-xs">
             <input type="text" class="form-control" placeholder="Ingresa tu búsqueda">
             <button type="submit" class="btn btn-default">Buscar</button>
           </form>
@@ -56,7 +57,7 @@
         <div class="tab-pane active welcome" id="welcome">
           <div class="row">
             <!-- ARTICLES -->
-            <div id="articles" class="col-md-5 articles">
+            <div id="articles" class="col-sm-7 col-md-5 articles">
               <article>
                 <span class="label label-gray">Historia destacada</span>
                 <h6>Artículo |
@@ -143,7 +144,7 @@
               </article>
             </div>
             <!-- WIDGETS -->
-            <div id="widgets" class="col-md-4 widgets">
+            <div id="widgets" class="col-sm-5 col-md-4 widgets">
               <section class="video">
                 <span class="label label-gray">Historia destacada</span>
                 <video width="100%" height="240" controls>
@@ -271,7 +272,7 @@
                 </li>
               </ul>
             </div>
-            <div class="footer-links">
+            <div class="footer-links hidden-sm hidden-xs">
               <h4>Expertise</h4>
               <ul type="none">
                 <li>
